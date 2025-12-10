@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-// Ex 1 - 13
+// Ex 13
     char line[1000];
     while(fgets(line, sizeof(line), stdin) != NULL)
     {
@@ -14,7 +14,7 @@ int main() {
         printf("\n");
     }
 
-// Ex 1 - 17
+// Ex 17
     // char line[1000];
     // while(fgets(line, sizeof(line), stdin) != NULL)
     // {
@@ -24,7 +24,7 @@ int main() {
     //     }
     // }
 
-// Ex 1 - 19
+// Ex 19
     // char line[1000];
     // while(fgets(line, sizeof(line), stdin) != NULL)
     // {
